@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Media QUERY</title>
+      <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            
+            text-align: center;
+        }
+        .title{
+            font-size: 6rem;
+
+        }
+        .subtitle{
+            font-size: 4rem;
+        }
+        @media (max-width:600px){
+           .title{
+              color:blueviolet;
+           }
+            
+        }
+      @media (orientation:landscape){
+            .title{
+                color: green;
+            }
+        }
+      </style>
+    </head>
+    <body>
+        <h1 class="title">Title</h1>
+        <p class="subtitle"> Subtitle</p>
+        
+    </body>
+</html>
